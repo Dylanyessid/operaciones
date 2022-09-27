@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family:'Lato', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    margin: auto;
+}
+
+.historics{
+    width: 40%;
+}
+
+form label{
+    display: inline;
+}
+
+#pS1, #pS2{
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 20px auto;
+    
+}
+
+#analisis, #treeInformation, #expectedValues, #approaches{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#plotlyChart{
+    width: 85%;
+}
+
+
