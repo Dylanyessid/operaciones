@@ -2,7 +2,7 @@ import {calculateEcuacion, getExpectedValueWithIntersects, getIntersect} from ".
 import { calculateExpecetedValue } from "./expectedValue.js";
 import {calculateProbability} from "./bayes.js"
 import { conservatureApproach, executeMaxRepentance, optimistApproach } from "./approaches.js";
-
+import  {showTreeDiagram}  from "./treeChart.js";
 
 const showGraphic = (x1, y1, x2,y2, x3,y3) =>{
   const TESTER = document.getElementById("plotlyChart");

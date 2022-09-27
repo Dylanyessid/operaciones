@@ -1,5 +1,5 @@
-const showTreeDiagram = (withoutStudy, favorableValues, unfavorableValues)=>{
-  simple_chart_config = {
+export const showTreeDiagram = (withoutStudy, favorableValues, unfavorableValues)=>{
+  let simple_chart_config = {
     chart: {
       container: "#treeDiagram",
       rootOrientation: "WEST",
@@ -194,3 +194,4 @@ const showTreeDiagram = (withoutStudy, favorableValues, unfavorableValues)=>{
 
   var my_chart = new Treant(simple_chart_config);
 }
+
